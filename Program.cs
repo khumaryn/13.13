@@ -1,26 +1,24 @@
 ﻿using System;
-using System.Xml;
 
-namespace classtask4
+namespace class_task3
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            // verilmis ededin cut olub olmadigini yoxlaya
-            Console.WriteLine("ededi daxil et");
-            int num=Convert.ToInt32(Console.ReadLine());
+            //yazilani int-e cevirmek
+            Console.WriteLine("ededi daxil edin");
+            string num = Console.ReadLine();
+            resultnum = int_ecevirmek(number);
+            Console.WriteLine(num);
+
+
             
-           
         }
-        static bool cuttek(int num)
+        static int int_ecevirmek(int number)
         {
-            return (num % 2 == 0);
-               
-            
-           
-               
-      
+            string num = Console.ReadLine();
+            return Convert.ToInt32 (num);
         }
-    }
+    }     
 }
